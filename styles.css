@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Outfit:wght@200&display=swap');
+body{
+    background-color: rgb(13, 25, 43);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'outfit';
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height:auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.4);
+    transition: all 300ms linear ;
+    padding-bottom: 20px;
+
+}
+.image{
+    display: flex;
+    align-items: center;
+}
+.nft{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: all 300ms linear ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.eye{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    margin-top: 10px;
+    justify-self: center;
+    align-self: center;
+    background-color:rgba(0, 255, 255, 0.2) ;
+    opacity: 0;
+    transition: all 300ms ease;
+}
+.nft:hover{
+    opacity: 0.4;    
+}
+.eye:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+.name{
+    color:hsl(0, 0%, 100%);
+    align-self: flex-start;
+    font-weight: 400;
+    padding-left: 19px;
+    font-size: 18px;
+    font-family: 'outfit';
+    transition: color 500ms ease-in ;
+}
+.name:hover{
+    color: aqua;
+}
+.disc{
+    color: gray;
+    font-family: 'outfit';
+    padding-left: 19px;
+    padding-top: -5px;
+}
+.price{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+    align-self: flex-end;
+    font-weight: 400;
+    padding-left: 19px;
+}
+.ether{
+    height: 15px;
+}
+.time{
+   justify-self: flex-end;
+   padding-right: 15px;
+   color: gray;
+}
+
+.create{
+    width: 220px;
+    border-top: solid 0.5px gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    padding-top: 12px;
+}
+.avatar{
+    width: 20px;
+    height: 20px;
+    border: solid 0.5px white;
+    border-radius: 15px;
+}
+.last{
+    display: inline;
+    color: gray;
+}
+.jules{
+    display: inline;
+    color: white;
+    transition: color 500ms linear ;
+}
+.jules:hover{
+    color: aqua;
+}
+.footer{
+    color: white;
+    padding-top:5px ;
+    transition: all 300ms linear ;
+}
+.footer:hover{
+    font-size: 17px;
+    text-shadow:2px 2px rgba(0, 0, 0, 0.4);
+}
